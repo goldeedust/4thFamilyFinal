@@ -89,7 +89,7 @@ h3 {
 
  p{
 	padding-top: 15px;
-  
+
 }
 .left {
   width: 40%;
@@ -147,8 +147,48 @@ a.button {
   display: block;
 }
 
+/*Ryans pre-presentation addition*/
+
+.mlk_celebration {
+    float: left;
+    padding-bottom: 3%;
+    padding-left: 1.5%;
 }
- 
+
+.mlk_celebration {
+    -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.mlk_celebration:hover {
+    -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+.mlk_text {
+    float: left;
+    font-size: 56px;
+    padding-left: 11%;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.mlk_text:hover {
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+
+.extension {
+    width: 100%;
+
+}
+
  /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -171,4 +211,3 @@ a.button {
 	margin:auto;
 	padding: 25px;
 }
-
