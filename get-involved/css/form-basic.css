@@ -1,8 +1,16 @@
 .main-content {
-	/*background-color: #48a5dc; */
-	background-image: url('../../images/group_picture_cover.jpg');
-	background-repeat: no-repeat;
-    background-size: cover;
+	background-color: #e1f5fe; 
+	/*background-image: url('../../images/group_picture_cover.jpg');
+	background-size: cover; */
+	width: 100%;
+}
+
+.newForm {
+	border: 2px solid red;
+}
+
+div > iframe {
+	width: 100%;
 }
 
 .form-basic{
@@ -132,7 +140,7 @@
     }
 
     .form-basic .form-row{
-        max-width: 300px;
+       /* max-width: 300px; */
         margin: 25px auto;
         text-align: left;
     }

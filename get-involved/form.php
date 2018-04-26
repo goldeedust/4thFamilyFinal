@@ -203,7 +203,7 @@
             </div>
 
             <div class="form-row">
-                <button type="submit" name="submit" value="Submit">Send!</button> <!-- send to info@4thFamily.org -->
+                <button type="submit" name="submit" value="<?php echo $sendTo;?>">Send!</button> <!-- send to info@4thFamily.org -->
             </div>
 
         </form>
