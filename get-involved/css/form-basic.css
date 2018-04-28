@@ -133,6 +133,11 @@ div > iframe {
     if you don't need the form to work on mobile devices. */
 
 @media (max-width: 600px) {
+	
+	div > iframe {
+	width: 100%;
+	margin-top: 100px;
+}
 
     .form-basic{
         padding: 30px;
