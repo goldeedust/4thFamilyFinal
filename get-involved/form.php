@@ -57,7 +57,7 @@
       </ul>
         </li>
 		 <li><a href="../media/media.html"><div class="home">MEDIA</div></a></li>
-	   <li><a href="form.html"><div class="home">CONTACT US</div></a></li>
+	   <li><a href="form.php"><div class="home">CONTACT US</div></a></li>
   </ul>
 </nav>
 </header>
@@ -92,11 +92,11 @@
 	if (!$error) {
 		$thanks = true;
   
-		$msg = "Someone has requested more info about getting involved with 4th Family! Here's the info they provided /n
-		This individual is a $describe /n Name: $name /n Email: $email /n Phone: $phone /n $social Link: $profileLink /n Comments: $thoughts";
+		$msg = "Someone has requested more info about getting involved with 4th Family! Here's the info they provided \n
+		This individual is a $describe \n Name: $name \n Email: $email \n Phone: $phone \n $social Link: $profileLink \n Comments: $thoughts";
   
 		$msg = wordwrap($msg,70);
-		$sendTo = "info@4thFamily.org";
+		$sendTo = "jhoke@4thfamily.org";
 		$subject = "$name wants to get involved!";
   
 		mail($sendTo,$subject,$msg, "");
