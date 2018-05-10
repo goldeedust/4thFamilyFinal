@@ -96,7 +96,7 @@
 		This individual is a $describe \n Name: $name \n Email: $email \n Phone: $phone \n $social Link: $profileLink \n Comments: $thoughts";
   
 		$msg = wordwrap($msg,70);
-		$sendTo = "jhoke@4thfamily.org";
+		$sendTo = "kosek.andrea@gmail.com";
 		$subject = "$name wants to get involved!";
   
 		mail($sendTo,$subject,$msg, "");
